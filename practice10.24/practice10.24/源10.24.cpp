@@ -10,7 +10,7 @@ using namespace placeholders;
 bool check_size(const string &s, size_t sz) {
 	return s.size() <= sz;
 }
-
+//
 int main()
 {
 	vector<int> ivec = { 0,1,2,3,4,5,6,7,8,9 };
