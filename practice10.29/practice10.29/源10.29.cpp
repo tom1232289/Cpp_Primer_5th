@@ -10,7 +10,7 @@ int main(int argc,char* argv[])
 {
 	ifstream in(argv[1]);
 	if (!in) {
-		cerr << "无法读取输入文件" << endl;
+		cerr << "鏃犳硶璇诲彇杈撳叆鏂囦欢" << endl;
 		system("pause"); return -1;
 	}
 	istream_iterator<string> str_iter(in), eof;
